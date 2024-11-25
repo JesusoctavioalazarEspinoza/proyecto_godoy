@@ -1,0 +1,136 @@
+/* public/css/styles.css */
+
+
+/* Estilos generales */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+
+/* Estilos del Hero */
+
+.hero-section {
+    background: linear-gradient(to right, #f8f9fa 0%, #e9ecef 100%);
+    padding: 4rem 0;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+
+/* Estilos de las tarjetas de propiedades */
+
+.card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Estilos del navbar */
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+/* Estilos del footer */
+
+footer {
+    margin-top: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para los iconos */
+
+.fas {
+    margin-right: 0.5rem;
+}
+
+
+/* Estilos para el formulario de búsqueda */
+
+.search-form .form-control {
+    border-radius: 20px 0 0 20px;
+}
+
+.search-form .btn {
+    border-radius: 0 20px 20px 0;
+}
+
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+        padding: 2rem 0;
+    }
+    .hero-section img {
+        margin-top: 2rem;
+    }
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-initial {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: all 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nav-link.active {
+    background-color: var(--bs-primary);
+    color: white;
+}
+
+.nav-link i {
+    width: 1.5rem;
+    text-align: center;
+    margin-right: 0.5rem;
+}
