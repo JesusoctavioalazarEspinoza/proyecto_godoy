@@ -38,6 +38,9 @@ body {
     object-fit: cover;
 }
 
+.from{
+    background-color: lightyellow;
+}
 
 /* Estilos del navbar */
 
