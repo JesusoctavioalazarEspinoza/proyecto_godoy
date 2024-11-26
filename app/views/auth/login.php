@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card shadow">
-                <div class="card-body">
+                <div class="from">
                     <h2 class="card-title text-center mb-4">Iniciar Sesión</h2>
                     
                     <?php if (isset($error)): ?>
