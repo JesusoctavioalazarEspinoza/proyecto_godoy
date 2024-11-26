@@ -3,7 +3,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow">
-                <div class="card-body">
+                <div class="from">
                     <h2 class="card-title text-center mb-4">Registro de Usuario</h2>
                     
                     <?php if (isset($error)): ?>
