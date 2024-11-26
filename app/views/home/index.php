@@ -1,6 +1,6 @@
 //app/views/home/index.php
 <!-- Sección Hero -->
-<section class="hero-section py-5 bg-light">
+<section class="hero-section py-5 bg-light" style="background-image: url('<?php echo BASE_URL; ?>/imagenes/hero-image.jpeg');  background-size: 100% 100%">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -14,9 +14,6 @@
                         </button>
                     </div>
                 </form>
-            </div>
-            <div class="col-md-6">
-                <img src="<?php echo BASE_URL; ?>/public/img/hero-image.jpg" alt="Casa" class="img-fluid rounded">
             </div>
         </div>
     </div>
